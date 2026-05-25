@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		300000000000000000000001 /* JeongriTimeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000001 /* JeongriTimeApp.swift */; };
+		300000000000000000000002 /* MissingInfoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000002 /* MissingInfoItem.swift */; };
+		300000000000000000000003 /* ScheduleBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000003 /* ScheduleBlock.swift */; };
+		300000000000000000000004 /* ScheduleCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000004 /* ScheduleCategory.swift */; };
+		300000000000000000000005 /* ScheduleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000005 /* ScheduleData.swift */; };
+		300000000000000000000006 /* ScheduleEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000006 /* ScheduleEngine.swift */; };
+		300000000000000000000007 /* TimeFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000007 /* TimeFormatter.swift */; };
+		300000000000000000000008 /* Weekday.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000008 /* Weekday.swift */; };
+		300000000000000000000009 /* ScheduleStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000009 /* ScheduleStore.swift */; };
+		300000000000000000000010 /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000010 /* AppTheme.swift */; };
+		300000000000000000000011 /* BlockViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000011 /* BlockViews.swift */; };
+		300000000000000000000012 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000012 /* DashboardView.swift */; };
+		300000000000000000000013 /* DayTimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000013 /* DayTimelineView.swift */; };
+		300000000000000000000014 /* MissingInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000014 /* MissingInfoView.swift */; };
+		300000000000000000000015 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000015 /* RootView.swift */; };
+		300000000000000000000016 /* WeekPlannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000016 /* WeekPlannerView.swift */; };
+		300000000000000000000017 /* ScheduleNotificationScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000017 /* ScheduleNotificationScheduler.swift */; };
+		300000000000000000000018 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000018 /* Assets.xcassets */; };
+		300000000000000000000019 /* CalendarInboxItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000019 /* CalendarInboxItem.swift */; };
+		300000000000000000000020 /* CalendarBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000020 /* CalendarBridge.swift */; };
+		300000000000000000000022 /* ScheduleSyncSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000022 /* ScheduleSyncSnapshot.swift */; };
+		300000000000000000000023 /* GoogleDriveSyncService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000023 /* GoogleDriveSyncService.swift */; };
+		300000000000000000000201 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 200000000000000000000201 /* EventKit.framework */; };
+		310000000000000000000001 /* JeongriTimeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000001 /* JeongriTimeApp.swift */; };
+		310000000000000000000002 /* MissingInfoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000002 /* MissingInfoItem.swift */; };
+		310000000000000000000003 /* ScheduleBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000003 /* ScheduleBlock.swift */; };
+		310000000000000000000004 /* ScheduleCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000004 /* ScheduleCategory.swift */; };
+		310000000000000000000005 /* ScheduleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000005 /* ScheduleData.swift */; };
+		310000000000000000000006 /* ScheduleEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000006 /* ScheduleEngine.swift */; };
+		310000000000000000000007 /* TimeFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000007 /* TimeFormatter.swift */; };
+		310000000000000000000008 /* Weekday.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000008 /* Weekday.swift */; };
+		310000000000000000000009 /* ScheduleStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000009 /* ScheduleStore.swift */; };
+		310000000000000000000010 /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000010 /* AppTheme.swift */; };
+		310000000000000000000011 /* BlockViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000011 /* BlockViews.swift */; };
+		310000000000000000000012 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000012 /* DashboardView.swift */; };
+		310000000000000000000013 /* DayTimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000013 /* DayTimelineView.swift */; };
+		310000000000000000000014 /* MissingInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000014 /* MissingInfoView.swift */; };
+		310000000000000000000015 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000015 /* RootView.swift */; };
+		310000000000000000000016 /* WeekPlannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000016 /* WeekPlannerView.swift */; };
+		310000000000000000000017 /* ScheduleNotificationScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000017 /* ScheduleNotificationScheduler.swift */; };
+		310000000000000000000018 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000018 /* Assets.xcassets */; };
+		310000000000000000000019 /* CalendarInboxItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000019 /* CalendarInboxItem.swift */; };
+		310000000000000000000020 /* CalendarBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000020 /* CalendarBridge.swift */; };
+		310000000000000000000022 /* ScheduleSyncSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000022 /* ScheduleSyncSnapshot.swift */; };
+		310000000000000000000023 /* GoogleDriveSyncService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000023 /* GoogleDriveSyncService.swift */; };
+		310000000000000000000201 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 200000000000000000000201 /* EventKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		200000000000000000000001 /* JeongriTimeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/JeongriTime/JeongriTimeApp.swift; sourceTree = "<group>"; };
+		200000000000000000000002 /* MissingInfoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/JeongriTime/Models/MissingInfoItem.swift; sourceTree = "<group>"; };
+		200000000000000000000003 /* ScheduleBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/JeongriTime/Models/ScheduleBlock.swift; sourceTree = "<group>"; };
+		200000000000000000000004 /* ScheduleCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/JeongriTime/Models/ScheduleCategory.swift; sourceTree = "<group>"; };
+		200000000000000000000005 /* ScheduleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/JeongriTime/Models/ScheduleData.swift; sourceTree = "<group>"; };
+		200000000000000000000006 /* ScheduleEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/JeongriTime/Models/ScheduleEngine.swift; sourceTree = "<group>"; };
+		200000000000000000000007 /* TimeFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/JeongriTime/Models/TimeFormatter.swift; sourceTree = "<group>"; };
+		200000000000000000000008 /* Weekday.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/JeongriTime/Models/Weekday.swift; sourceTree = "<group>"; };
+		200000000000000000000009 /* ScheduleStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/JeongriTime/Stores/ScheduleStore.swift; sourceTree = "<group>"; };
+		200000000000000000000010 /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/JeongriTime/Support/AppTheme.swift; sourceTree = "<group>"; };
+		200000000000000000000011 /* BlockViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/JeongriTime/Views/BlockViews.swift; sourceTree = "<group>"; };
+		200000000000000000000012 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/JeongriTime/Views/DashboardView.swift; sourceTree = "<group>"; };
+		200000000000000000000013 /* DayTimelineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/JeongriTime/Views/DayTimelineView.swift; sourceTree = "<group>"; };
+		200000000000000000000014 /* MissingInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/JeongriTime/Views/MissingInfoView.swift; sourceTree = "<group>"; };
+		200000000000000000000015 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/JeongriTime/Views/RootView.swift; sourceTree = "<group>"; };
+		200000000000000000000016 /* WeekPlannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/JeongriTime/Views/WeekPlannerView.swift; sourceTree = "<group>"; };
+		200000000000000000000017 /* ScheduleNotificationScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/JeongriTime/Services/ScheduleNotificationScheduler.swift; sourceTree = "<group>"; };
+		200000000000000000000018 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Resources/Assets.xcassets; sourceTree = "<group>"; };
+		200000000000000000000019 /* CalendarInboxItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/JeongriTime/Models/CalendarInboxItem.swift; sourceTree = "<group>"; };
+		200000000000000000000020 /* CalendarBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/JeongriTime/Services/CalendarBridge.swift; sourceTree = "<group>"; };
+		200000000000000000000022 /* ScheduleSyncSnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/JeongriTime/Models/ScheduleSyncSnapshot.swift; sourceTree = "<group>"; };
+		200000000000000000000023 /* GoogleDriveSyncService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/JeongriTime/Services/GoogleDriveSyncService.swift; sourceTree = "<group>"; };
+		200000000000000000000201 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		200000000000000000000101 /* JeongriTime-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JeongriTime-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		200000000000000000000102 /* JeongriTime-macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JeongriTime-macOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		110000000000000000000003 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				300000000000000000000201 /* EventKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		110000000000000000000006 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				310000000000000000000201 /* EventKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		100000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				100000000000000000000002 /* Sources */,
+				100000000000000000000004 /* Frameworks */,
+				200000000000000000000018 /* Assets.xcassets */,
+				100000000000000000000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		100000000000000000000002 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				200000000000000000000001 /* JeongriTimeApp.swift */,
+				200000000000000000000002 /* MissingInfoItem.swift */,
+				200000000000000000000003 /* ScheduleBlock.swift */,
+				200000000000000000000004 /* ScheduleCategory.swift */,
+				200000000000000000000005 /* ScheduleData.swift */,
+				200000000000000000000006 /* ScheduleEngine.swift */,
+				200000000000000000000007 /* TimeFormatter.swift */,
+				200000000000000000000008 /* Weekday.swift */,
+				200000000000000000000009 /* ScheduleStore.swift */,
+				200000000000000000000010 /* AppTheme.swift */,
+				200000000000000000000011 /* BlockViews.swift */,
+				200000000000000000000012 /* DashboardView.swift */,
+				200000000000000000000013 /* DayTimelineView.swift */,
+				200000000000000000000014 /* MissingInfoView.swift */,
+				200000000000000000000015 /* RootView.swift */,
+				200000000000000000000016 /* WeekPlannerView.swift */,
+				200000000000000000000017 /* ScheduleNotificationScheduler.swift */,
+				200000000000000000000019 /* CalendarInboxItem.swift */,
+				200000000000000000000020 /* CalendarBridge.swift */,
+				200000000000000000000022 /* ScheduleSyncSnapshot.swift */,
+				200000000000000000000023 /* GoogleDriveSyncService.swift */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		100000000000000000000004 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				200000000000000000000201 /* EventKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		100000000000000000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				200000000000000000000101 /* JeongriTime-iOS.app */,
+				200000000000000000000102 /* JeongriTime-macOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		120000000000000000000001 /* JeongriTime-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 500000000000000000000001 /* Build configuration list for PBXNativeTarget "JeongriTime-iOS" */;
+			buildPhases = (
+				110000000000000000000001 /* Sources */,
+				110000000000000000000003 /* Frameworks */,
+				110000000000000000000002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JeongriTime-iOS";
+			productName = "JeongriTime-iOS";
+			productReference = 200000000000000000000101 /* JeongriTime-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		120000000000000000000002 /* JeongriTime-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 500000000000000000000002 /* Build configuration list for PBXNativeTarget "JeongriTime-macOS" */;
+			buildPhases = (
+				110000000000000000000004 /* Sources */,
+				110000000000000000000006 /* Frameworks */,
+				110000000000000000000005 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JeongriTime-macOS";
+			productName = "JeongriTime-macOS";
+			productReference = 200000000000000000000102 /* JeongriTime-macOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		000000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					120000000000000000000001 = {
+						CreatedOnToolsVersion = 26.0;
+					};
+					120000000000000000000002 = {
+						CreatedOnToolsVersion = 26.0;
+					};
+				};
+			};
+			buildConfigurationList = 500000000000000000000003 /* Build configuration list for PBXProject "JeongriTime" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = ko;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				ko,
+				en,
+				Base,
+			);
+			mainGroup = 100000000000000000000001;
+			productRefGroup = 100000000000000000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				120000000000000000000001 /* JeongriTime-iOS */,
+				120000000000000000000002 /* JeongriTime-macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		110000000000000000000002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				300000000000000000000018 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		110000000000000000000005 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				310000000000000000000018 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		110000000000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				300000000000000000000001 /* JeongriTimeApp.swift in Sources */,
+				300000000000000000000002 /* MissingInfoItem.swift in Sources */,
+				300000000000000000000003 /* ScheduleBlock.swift in Sources */,
+				300000000000000000000004 /* ScheduleCategory.swift in Sources */,
+				300000000000000000000005 /* ScheduleData.swift in Sources */,
+				300000000000000000000006 /* ScheduleEngine.swift in Sources */,
+				300000000000000000000007 /* TimeFormatter.swift in Sources */,
+				300000000000000000000008 /* Weekday.swift in Sources */,
+				300000000000000000000009 /* ScheduleStore.swift in Sources */,
+				300000000000000000000010 /* AppTheme.swift in Sources */,
+				300000000000000000000011 /* BlockViews.swift in Sources */,
+				300000000000000000000012 /* DashboardView.swift in Sources */,
+				300000000000000000000013 /* DayTimelineView.swift in Sources */,
+				300000000000000000000014 /* MissingInfoView.swift in Sources */,
+				300000000000000000000015 /* RootView.swift in Sources */,
+				300000000000000000000016 /* WeekPlannerView.swift in Sources */,
+				300000000000000000000017 /* ScheduleNotificationScheduler.swift in Sources */,
+				300000000000000000000019 /* CalendarInboxItem.swift in Sources */,
+				300000000000000000000020 /* CalendarBridge.swift in Sources */,
+				300000000000000000000022 /* ScheduleSyncSnapshot.swift in Sources */,
+				300000000000000000000023 /* GoogleDriveSyncService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		110000000000000000000004 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				310000000000000000000001 /* JeongriTimeApp.swift in Sources */,
+				310000000000000000000002 /* MissingInfoItem.swift in Sources */,
+				310000000000000000000003 /* ScheduleBlock.swift in Sources */,
+				310000000000000000000004 /* ScheduleCategory.swift in Sources */,
+				310000000000000000000005 /* ScheduleData.swift in Sources */,
+				310000000000000000000006 /* ScheduleEngine.swift in Sources */,
+				310000000000000000000007 /* TimeFormatter.swift in Sources */,
+				310000000000000000000008 /* Weekday.swift in Sources */,
+				310000000000000000000009 /* ScheduleStore.swift in Sources */,
+				310000000000000000000010 /* AppTheme.swift in Sources */,
+				310000000000000000000011 /* BlockViews.swift in Sources */,
+				310000000000000000000012 /* DashboardView.swift in Sources */,
+				310000000000000000000013 /* DayTimelineView.swift in Sources */,
+				310000000000000000000014 /* MissingInfoView.swift in Sources */,
+				310000000000000000000015 /* RootView.swift in Sources */,
+				310000000000000000000016 /* WeekPlannerView.swift in Sources */,
+				310000000000000000000017 /* ScheduleNotificationScheduler.swift in Sources */,
+				310000000000000000000019 /* CalendarInboxItem.swift in Sources */,
+				310000000000000000000020 /* CalendarBridge.swift in Sources */,
+				310000000000000000000022 /* ScheduleSyncSnapshot.swift in Sources */,
+				310000000000000000000023 /* GoogleDriveSyncService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		400000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = auto;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		400000000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = auto;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		400000000000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 238Y784C58;
+				ENABLE_ON_DEMAND_RESOURCES = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "정리시간";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSCalendarsFullAccessUsageDescription = "정리시간 계획과 캘린더 일정을 연결하기 위해 캘린더 접근이 필요합니다.";
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "정리시간 계획과 캘린더 일정을 연결하기 위해 캘린더 접근이 필요합니다.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.2.6;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.jeongritime.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		400000000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 238Y784C58;
+				ENABLE_ON_DEMAND_RESOURCES = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "정리시간";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSCalendarsFullAccessUsageDescription = "정리시간 계획과 캘린더 일정을 연결하기 위해 캘린더 접근이 필요합니다.";
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "정리시간 계획과 캘린더 일정을 연결하기 위해 캘린더 접근이 필요합니다.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.2.6;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.jeongritime.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		400000000000000000000005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_ON_DEMAND_RESOURCES = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "정리시간";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSCalendarsFullAccessUsageDescription = "정리시간 계획과 캘린더 일정을 연결하기 위해 캘린더 접근이 필요합니다.";
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "정리시간 계획과 캘린더 일정을 연결하기 위해 캘린더 접근이 필요합니다.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 0.2.6;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.jeongritime.mac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		400000000000000000000006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_ON_DEMAND_RESOURCES = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "정리시간";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSCalendarsFullAccessUsageDescription = "정리시간 계획과 캘린더 일정을 연결하기 위해 캘린더 접근이 필요합니다.";
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "정리시간 계획과 캘린더 일정을 연결하기 위해 캘린더 접근이 필요합니다.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 0.2.6;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.jeongritime.mac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		500000000000000000000001 /* Build configuration list for PBXNativeTarget "JeongriTime-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				400000000000000000000003 /* Debug */,
+				400000000000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		500000000000000000000002 /* Build configuration list for PBXNativeTarget "JeongriTime-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				400000000000000000000005 /* Debug */,
+				400000000000000000000006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		500000000000000000000003 /* Build configuration list for PBXProject "JeongriTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				400000000000000000000001 /* Debug */,
+				400000000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 000000000000000000000001 /* Project object */;
+}

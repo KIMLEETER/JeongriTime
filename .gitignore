@@ -1,0 +1,12 @@
+.build/
+.xcode-derived/
+DerivedData/
+dist/
+xcuserdata/
+*.xcuserdata/
+*.xcuserstate
+.DS_Store
+LocalData/
+*.local.json
+*.private.json
+*.xcconfig.local
